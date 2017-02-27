@@ -2,7 +2,27 @@
    Author's custom styles
    ========================================================================== */
 
-#map-container { height: 180px; }
+#map-container { height: 250px; }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+    max-height: 450px;
+}
+
+.jumbotron,
+.col-lg-12 {
+  padding: 0;
+}
+
+.stats-style {
+-moz-column-count: 3;
+-moz-columns: 3;
+-webkit-columns: 3;
+columns: 3;
+}
+
 
 
 
